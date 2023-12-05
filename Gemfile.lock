@@ -1,0 +1,34 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.8.1)
+    dotenv-vault (0.10.1)
+      dotenv
+      lockbox
+    lockbox (1.3.0)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    nio4r (2.7.0)
+    puma (6.4.0)
+      nio4r (~> 2.0)
+    rack (2.2.8)
+    rack-protection (3.1.0)
+      rack (~> 2.2, >= 2.2.4)
+    ruby2_keywords (0.0.5)
+    sinatra (3.1.0)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.1.0)
+      tilt (~> 2.0)
+    tilt (2.3.0)
+
+PLATFORMS
+  arm64-darwin-23
+
+DEPENDENCIES
+  dotenv-vault (~> 0.10.1)
+  puma
+  sinatra
+
+BUNDLED WITH
+   2.2.3
